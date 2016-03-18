@@ -1,16 +1,4 @@
-html, body, div, span, applet, object, iframe, h1, h3, h4, h5, h6, p, blockquote, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
-	border:0pt none;
-	font-family:inherit;
-	font-size:100%;
-	font-style:inherit;
-	font-weight:inherit;
-	margin:0pt;
-	outline-color:invert;
-	outline-style:none;
-	outline-width:0pt;
-	padding:0pt;
-	vertical-align:baseline;
-}
+
 table {
 	border-collapse:separate;
 	border-spacing:0pt;
@@ -37,14 +25,14 @@ em, i {
 }
 
 body {
-    background-image: url(image2.jpg);
-    position: fixed;
-
+    background-image: url(image2.jpg) ;
     background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
     -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
 	font-size:12px;
 	font-family:arial, sans-serif;
 	
@@ -111,7 +99,7 @@ h1 a span{
 }
 
 #menu ul {
-	font-size:50px;
+	font-size:40px;
 	list-style:none;
 	color:white;
 	
@@ -285,6 +273,7 @@ h5 a:hover{
 	text-transform:uppercase;
 	margin:90px 0 15px 0;
 }
-h2{
-    
+pre{
+    font-size: 40px;
 }
+
